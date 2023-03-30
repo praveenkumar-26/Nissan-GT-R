@@ -1,4 +1,3 @@
-HTML
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -54,31 +53,39 @@ HTML
    var r33=document.getElementById("Nissan Skyline GT-R - R33");
    var r34=document.getElementById("Nissan Skyline GT-R M - R34");
    var r35=document.getElementById("Nissan GT-R - R35");
+   var model=document.getElementById("model");
+
   
   c10.onclick = function(){
      header.style.backgroundImage= "url("gtr1.png");
+     model.innerHTML="Nissan Skyline GT-R - C10"
   }
   c100.onclick = function(){
      header.style.backgroundImage= "url("gtr2.png");
+     model.innerHTML="Nissan Skyline GT-R - C100"
   }
   r32.onclick = function(){
      header.style.backgroundImage= "url("gtr3.png");
+     model.innerHTML="Nissan Skyline GT-R - R32"
   }
   r33.onclick = function(){
      header.style.backgroundImage= "url("gtr4.png");
+     model.innerHTML="Nissan Skyline GT-R - R33"
   }
   r34.onclick = function(){
      header.style.backgroundImage= "url("gtr5.png");
+     model.innerHTML="Nissan Skyline GT-R M - R34"
   }
   r35.onclick = function(){
      header.style.backgroundImage= "url("gtr6.png");
+     model.innerHTML="Nissan GT-R - R35"
 </script>
         
   </body>
 </html>
 
-CSS
 
+CSS
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
@@ -97,6 +104,7 @@ CSS
   background-position: center;
   background-size: cover;
   padding: 0 7%
+  transition: background-image 1s;
 } 
 nav{
   position: fixed;
@@ -148,7 +156,6 @@ nav.btn{
   background: #fff;
   height: 4px;
 }
-  
   
   
   
