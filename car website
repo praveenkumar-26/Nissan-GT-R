@@ -1,13 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <h1>NISSAN GT-R</h1>
-    <h2>here's every generation of the 'Godzilla' </h2>
     <img src="bc2.jpeg"
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nissan GT-R</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -53,32 +48,25 @@
    var r33=document.getElementById("Nissan Skyline GT-R - R33");
    var r34=document.getElementById("Nissan Skyline GT-R M - R34");
    var r35=document.getElementById("Nissan GT-R - R35");
-   var model=document.getElementById("model");
-
   
   c10.onclick = function(){
-     header.style.backgroundImage= "url("gtr1.png");
-     model.innerHTML="Nissan Skyline GT-R - C10"
+     header.style.backgroundImage= "url(gtr1.png)";
   }
   c100.onclick = function(){
-     header.style.backgroundImage= "url("gtr2.png");
-     model.innerHTML="Nissan Skyline GT-R - C100"
+     header.style.backgroundImage= "url(gtr2.png)";
   }
   r32.onclick = function(){
-     header.style.backgroundImage= "url("gtr3.png");
-     model.innerHTML="Nissan Skyline GT-R - R32"
+     header.style.backgroundImage= "url(gtr3.png)";
   }
   r33.onclick = function(){
-     header.style.backgroundImage= "url("gtr4.png");
-     model.innerHTML="Nissan Skyline GT-R - R33"
+     header.style.backgroundImage= "url(gtr4.png)";
   }
   r34.onclick = function(){
-     header.style.backgroundImage= "url("gtr5.png");
-     model.innerHTML="Nissan Skyline GT-R M - R34"
+     header.style.backgroundImage= "url(gtr5.png)";
   }
   r35.onclick = function(){
-     header.style.backgroundImage= "url("gtr6.png");
-     model.innerHTML="Nissan GT-R - R35"
+     header.style.backgroundImage= "url(gtr6.png)";
+  }
 </script>
         
   </body>
@@ -96,15 +84,14 @@ CSS
   font-family: 'poppins',sans-serif
 }
 .header{
-  .width: 100%;
+  width: 100%;
   height: 100vh;
-  background-image: url("bc2.jpeg");
+  background-image: url("bc2.jpg");
   background-color: rgba(0,0,0,0.5);
   background-blend-mode: multiply;
   background-position: center;
   background-size: cover;
   padding: 0 7%
-  transition: background-image 1s;
 } 
 nav{
   position: fixed;
@@ -115,7 +102,7 @@ nav{
   align-items: center;
 }
 .logo{
-  width: 220px;
+  width: 110px;
   cursor: pointer;
 }
 nav u1 li{
@@ -156,8 +143,3 @@ nav.btn{
   background: #fff;
   height: 4px;
 }
-  
-  
-  
-  
-  
